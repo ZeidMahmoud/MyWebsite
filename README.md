@@ -20,14 +20,48 @@ A minimal and fast personal website built with Hugo using the Bear Blog theme. T
 - [Bear Blog Theme](https://github.com/janraasch/hugo-bearblog) - Minimal and fast theme
 - No JavaScript - Pure HTML/CSS for maximum performance
 - RSS Feed support
+# Hugo Installation Guide
 
-## 🛠️ Local Development
+## Package Managers
 
-1. Install Hugo:
 ```bash
-sudo apt install hugo
-```
+# Debian/Ubuntu/Linux Mint
+sudo apt update && sudo apt install hugo
 
+# Arch Linux/Manjaro
+sudo pacman -S hugo
+
+# Fedora
+sudo dnf install hugo
+
+# openSUSE
+sudo zypper install hugo
+
+# CentOS/RHEL
+sudo yum install hugo
+
+# Alpine Linux
+sudo apk add hugo
+
+# FreeBSD
+sudo pkg install hugo
+
+# OpenBSD
+sudo pkg_add hugo
+
+# Slackware
+sbopko -i hugo 
+"install first sbopkg on slackware"
+
+# Using Go (Universal)
+go install github.com/gohugoio/hugo@latest
+
+# Using Snap (Universal)
+sudo snap install hugo
+
+# Verify Installation
+hugo version
+```
 2. Clone the repository:
 ```bash
 git clone https://github.com/YOUR-USERNAME/hugo-bearblog.git
