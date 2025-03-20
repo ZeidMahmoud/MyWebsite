@@ -1,0 +1,28 @@
+main:
+  - name: "home"
+    url: "/"
+    weight: 1
+  - name: "about me"
+    url: "/aboutme/"
+    weight: 2
+  - name: "contact"
+    url: "/contact/"
+    weight: 3
+  - name: "library"
+    url: "/library/"
+    weight: 4
+  - name: "resources"
+    url: "/resources/"
+    weight: 5
+  - name: "tools"
+    url: "/tools/"
+    weight: 6
+  - name: "blog"
+    url: "/blog/"
+    weight: 7
+  - name: "projects"
+    url: "/projects/"
+    weight: 8
+  - name: "RSS"
+    url: "/index.xml"
+    weight: 9

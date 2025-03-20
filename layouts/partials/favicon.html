@@ -1,2 +1,6 @@
 {{ with .Site.Params.favicon }}
-<link rel="shortcut icon" href="{{ . | absURL }}" />{{ end }}
+<link rel="shortcut icon" href="{{ . | absURL }}" />
+<link rel="icon" type="image/png" href="{{ . | absURL }}" sizes="32x32" />
+<link rel="icon" type="image/png" href="{{ . | absURL }}" sizes="16x16" />
+{{ end }}
+

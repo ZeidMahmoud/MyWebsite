@@ -61,10 +61,6 @@ ignoreErrors = ["error-disable-taxonomy"]
   url = "/index.xml"
   weight = 9
 
-[module]
-  [[module.imports]]
-  path = "../"
-
 [markup.goldmark.renderer]
   unsafe = true
 
