@@ -78,6 +78,7 @@ go to exampleSite/ and type "hugo server --source ./exampleSite --themesDir ../.
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+<<<<<<< HEAD
 # Hugo ʕ•ᴥ•ʔ Bear Blog ![Test](https://github.com/janraasch/hugo-bearblog/workflows/CI/badge.svg?branch=master&event=push)
 
 🧸 A [Hugo](https://gohugo.io/)-theme based on [Bear Blog](https://bearblog.dev).
@@ -164,3 +165,5 @@ A special thank you goes out to [Herman](https://herman.bearblog.dev), for creat
 [hugo-setup-guide]: https://gohugo.io/getting-started/installing
 [light-screenshot]: https://raw.githubusercontent.com/janraasch/hugo-bearblog/master/images/screenshot.png
 [dark-screenshot]: https://raw.githubusercontent.com/janraasch/hugo-bearblog/master/images/screenshot-dark.png
+=======
+>>>>>>> 4dbbf3c37c07ac9ddb8f8060e1997862678bedef
