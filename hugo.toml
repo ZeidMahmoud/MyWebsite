@@ -1,0 +1,87 @@
+# Base URL used when generating links to your pages
+baseURL = "https://zeidmahmoud.xyz"
+theme = "hugo-bearblog"
+contentDir = "content"
+
+# Basic metadata configuration for your blog.
+title = "Zeid Mahmoud"
+author = "Zeid"
+copyright = "Copyright © 2024, Zeid Mahmoud."
+languageCode = "en-US"
+
+# Generate a nice robots.txt for SEO
+enableRobotsTXT = true
+
+# Generate "Bearblog"-like URLs
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+
+[[menu.main]]
+  name = "home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "about me"
+  url = "/aboutme/"
+  weight = 2
+
+[[menu.main]]
+  name = "contact"
+  url = "/contact/"
+  weight = 3
+
+[[menu.main]]
+  name = "library"
+  url = "/library/"
+  weight = 4
+
+[[menu.main]]
+  name = "resources"
+  url = "/resources/"
+  weight = 5
+
+[[menu.main]]
+  name = "tools"
+  url = "/tools/"
+  weight = 6
+
+[[menu.main]]
+  name = "blog"
+  url = "/blog/"
+  weight = 7
+
+[[menu.main]]
+  name = "projects"
+  url = "/projects/"
+  weight = 8
+
+[[menu.main]]
+  name = "RSS"
+  url = "/index.xml"
+  weight = 9
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[imaging]
+  quality = 75
+  resampleFilter = "lanczos"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[params]
+  description = "This is my personal website to share my interest things and ideas with people."
+  favicon = "/images/favicon.ico"
+  images = ["/images/favicon.ico"]
+  x = "https://x.com/ZEID_33"
+  github = "https://github.com/ZeidMahmoud"
+  linkedin = "https://linkedin.com/in/zeidmahmoud"
+  primal = "npub1lvkg6ymtxnue3qq36alph8d66sankz5t4lhkx8dz5372v05yhcqq9maefw"
+  email = "ZeidMahmoud@proton.me"
+  disableDefaultMenu = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
